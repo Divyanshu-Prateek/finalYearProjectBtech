@@ -1,0 +1,4 @@
+The Dataset used for Modelling Purpose is obtained from kaggle-
+5,863 images, 2 categories
+
+https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
