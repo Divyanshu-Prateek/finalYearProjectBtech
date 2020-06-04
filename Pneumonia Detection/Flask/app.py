@@ -11,7 +11,7 @@ from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__)
-model = load_model("Model_pneumonia2.h5")
+model = load_model("../Main Code(CNN)/Model_pneumonia2.h5")
 
 @app.route('/')
 def index():
