@@ -15,7 +15,7 @@ model = load_model("Model_pneumonia2.h5")
 
 @app.route('/')
 def index():
-    return render_template('pn.html')
+    return render_template('pn1.html')
 
 @app.route('/predict',methods = ['GET','POST'])
 def upload():
