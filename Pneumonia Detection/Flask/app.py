@@ -40,11 +40,12 @@ def upload():
          
         index = ['NORMAL','PNEUMONIA']
         
-        text = "the result is : " + str(index[preds[0][0]])
+        # text = "the result is : " + str(index[preds[0][0]])
+        text = str(index[preds[0][0]])
         
     return text
 if __name__ == '__main__':
-    app.run(debug = True, threaded = False)
+    app.run(debug = False, threaded = False)
         
         
         
